@@ -1,0 +1,358 @@
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+/* Header styles */
+#header {
+  background-image: url();
+  background-size: cover;
+  
+ 
+}
+
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  
+}
+
+.nav-links li {
+  margin: 0 10px;
+  
+}
+
+.nav-links li a {
+  color:rgb(8, 7, 7);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 40px;
+  font-size: 30px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+  
+  color: #ff0000;
+}
+
+.logo {
+  justify-content: center;
+  text-align: center;
+  margin: 15px;
+}
+
+.logo a {
+  color: #fa3c3c;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('https://i.pinimg.com/originals/e9/5d/39/e95d39a98abdb315dd6c2cc17496f1e0.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.hero .container{
+  margin-top: -200px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Features section styles */
+.features {
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/795/845/desktop-wallpaper-pepsi-max-pepsi-thumbnail.jpg);
+  background-size: cover;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.feature-item {
+  margin-bottom: 40px;
+}
+
+.feature-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.features p {
+  font-size: 1.1rem;
+}
+.btn{
+  color: white;
+}
+.btn:hover{
+  color: #0f0f0f;
+}
+/* About section styles */
+.about {
+  padding: 80px 0;
+  text-align: center;
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/439/944/desktop-wallpaper-pepsi-45-pepsi.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-size: 1.1rem;
+}
+
+/* Services section styles */
+.services {
+  background-image: url(https://media.licdn.com/dms/image/D5605AQFEaVOvMCGxgw/feedshare-thumbnail_720_1280/0/1690112763122?e=2147483647&v=beta&t=sTReYMDfSPrayR3wf224ZNXzjVMnEAHx1Qv_5HYXCtU);
+  background-size: cover;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.service-item {
+  margin-bottom: 40px;
+}
+
+.service-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1.1rem;
+}
+
+/* Testimonials section styles */
+.testimonials {
+  padding: 80px 0;
+  text-align: center;
+  background-image: url(https://st.depositphotos.com/34795480/57664/i/450/depositphotos_576646354-stock-photo-zaporozhye-ukraine-may-2022-pepsi.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.testimonial-item {
+  margin-bottom: 40px;
+}
+
+.testimonial-item blockquote {
+  font-style: italic;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.testimonial-item cite {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Contact section styles */
+.contact {
+  padding: 80px 0;
+  text-align: center;
+  background-image: url(https://img.freepik.com/premium-photo/cup-pepsi-sunglasses-with-straw-background_1037615-26572.jpg);
+  background-size: cover;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: white;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+    padding: 0 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .features h2,
+  .about h2,
+  .services h2,
+  .testimonials h2,
+  .contact h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .nav-links li a {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+
+  .features h2,
+  .about h2,
+  .services h2,
+  .testimonials h2,
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 0.8rem;
+  }
+
+  .nav-links li a {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .features h2,
+  .about h2,
+  .services h2,
+  .testimonials h2,
+  .contact h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav-links li a {
+    font-size: 18px;
+  }
+
+  .features h2,
+  .about h2,
+  .services h2,
+  .testimonials h2,
+  .contact h2 {
+    font-size: 1.4rem;
+  }
+}
